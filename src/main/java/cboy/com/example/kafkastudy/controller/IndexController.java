@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/index")
 public class IndexController {
 
+    /**
+     * 测试方法
+     * @return
+     */
     @GetMapping("/test")
     public String test(){
         return "测试";
